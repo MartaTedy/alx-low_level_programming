@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isdigit - Checks if c is digit between 0 to 9
  * @c: Character to be checked
