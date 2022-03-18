@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper -evalue if letter is uppercase .[B
+ * _isupper - evalue if letter is uppercase .
  *@c: print int
  * Return: Always 0.
  */
