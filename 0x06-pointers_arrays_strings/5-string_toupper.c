@@ -2,7 +2,7 @@
 
 /**
  * string_toupper -  function that changes all lowercase letters of a string to uppercase.
- * @n: cadena de caracteres.
+ *@n: cadena de caracteres.
  * Return: n.
  */
 
