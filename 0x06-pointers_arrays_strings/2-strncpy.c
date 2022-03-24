@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - function that copies a string.
+ * _strncpy -  function that copies a string..
  * @src: cadena a copiar
  * @dest: destino de la cadena.
  * @n: number.
@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 		i++;
 	}
-	
+
 	while (i < n)
 	{
 		dest[i] = '\0';
