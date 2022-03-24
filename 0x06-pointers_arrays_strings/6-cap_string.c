@@ -1,5 +1,3 @@
-#include "main"
-
 /**
  * cap_string - function that capitalizes all words of a string.
  * @s: string.
