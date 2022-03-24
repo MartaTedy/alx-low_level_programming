@@ -1,7 +1,7 @@
 #include "main"
 
 /**
- * _strcmp - function that compares two striings.
+ * _strcmp -  function that compares two strings.
  * @s1: primera cadena.
  * @s2: segunda cadena.
  * Return: 0.
