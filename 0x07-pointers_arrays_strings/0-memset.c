@@ -3,7 +3,7 @@
 /**
  * _memset -  function that fills memory with a constant byte.
  * @s: buffer. 
- * @b: el valor
+ * @b: el valor.
  * @n: limite de iteraction.
  * Return: s.
  */
