@@ -1,8 +1,8 @@
 /**
  * _strstr - a function that locates a substring.
  *
- * @haystack: input string to search for mtching substrings
- * @needle: subtring to search for
+ * @haystack: input string to search for matching substrings
+ * @needle: substring to search for
  *
  * Return: a pointer to the beginning of the located substring or NULL if substring is not found
  *
