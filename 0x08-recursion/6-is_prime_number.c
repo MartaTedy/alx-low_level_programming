@@ -19,17 +19,17 @@ int prime(int n, int i)
 }
 
 /**
- * is_prime_number - function
- *
- * @n: the number
- * Return: Always 0.
- */
+* is_prime_number - function
+*
+* @n: the number
+* Return: Always 0.
+*/
 
 int is_prime_number(int n)
 {
 	if (n < 0)
 		return (0);
 	if (n == 1)
-		returnv(0);
+		return (0);
 	return (prime(n, n - 1));
 }
