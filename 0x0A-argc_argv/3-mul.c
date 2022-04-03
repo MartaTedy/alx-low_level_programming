@@ -8,10 +8,10 @@
  * Return: Always 0.
  */
 
-int ft_atoi(const char *str)
+int              ft_atoi(const char *str)
 {
-	int n;
-	int sign;
+	int              n;
+	int              sign;
 
 	n = 0;
 	while (*str == ' ' || *str == '\t' || *str == '\v' || *str == '\r' || *str == '\n' || *str == '\f')
@@ -27,7 +27,10 @@ int ft_atoi(const char *str)
 			break;
 		str++;
 	}
+	return (n * sign);
+
 }
+
 /**
  * main - function
  *
