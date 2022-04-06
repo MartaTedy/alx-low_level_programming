@@ -1,22 +1,18 @@
-#include "main.h"
-/**
- * main - Entry point
- *
- * Description: prints _putchar using putchar prototype
- *
- * Return: Always 0 (Success)
-**/
+#include"main.h"
 
-int main(void)
+/**
+ * _islower - function to check if
+ *           character is lowercase
+ *
+ * @c: checks input of function
+ *
+ * Return: returns 1 if `c` is lowercase
+ *         otherwise always 0 (Success)
+*/
+
+int _islower(int c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	if (c >= 97 && c <= 122)
+		return (1);
 	return (0);
 }
